@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/Fondo.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.login-box {
+    border-radius: 12px;
+    width: 420px;
+    height: auto;
+    background: #FFFFFF;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    text-align: center;
+}
+
+.login-box .logo_login {
+    max-width: 250px;
+    /* Ancho máximo permitido para el logo */
+    height: auto;
+    /* Permite que la altura se ajuste automáticamente según el ancho máximo */
+    display: block;
+    /* Hace que la imagen sea un bloque para aplicar margen automáticamente */
+    margin: 0 auto 20px;
+    /* Margen superior e inferior de 20px y margen izquierdo y derecho automáticos para centrar horizontalmente */
+}
+
+.login-box h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    color: #757A7E;
+}
+
+.login-box p {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #757A7E;
+}
+
+.login-box label {
+    margin: 0;
+    padding: 0;
+    color: #757A7E;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"], 
+.login-box input[type="password"] {
+    color: #000;
+    border: 1px solid #757A7E;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    background: #12334D;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.login-box a {
+    text-decoration: none;
+    line-height: 20px;
+    color: #12334D;
+}
+
+.login-box a:hover {
+    color: #757A7E;
+}
+

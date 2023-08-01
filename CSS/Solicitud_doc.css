@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/Fondo.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.doc-box {
+    border-radius: 12px;
+    width: 420px;
+    height: 420px;
+    background: #FFFFFF;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.doc-box .logo {
+    max-width: 250px;
+    /* Ancho máximo permitido para el logo */
+    height: auto;
+    /* Permite que la altura se ajuste automáticamente según el ancho máximo */
+    display: block;
+    /* Hace que la imagen sea un bloque para aplicar margen automáticamente */
+    margin: 0 auto 20px;
+    /* Margen superior e inferior de 20px y margen izquierdo y derecho automáticos para centrar horizontalmente */
+}
+
+.doc-box h2 {
+    color: #757A7E;
+    margin: 0;
+    padding: 0 0 20px;
+    height: auto;
+    text-align: center;
+}
+
+.doc-box p {
+    color: #757A7E;
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.doc-box label {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: #757A7E;
+    font-weight: bold;
+    text-align: left;
+}
+
+.doc-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.doc-box input[type="number"] {
+    color: #000;
+    border: 1px solid #757A7E;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.doc-box input[type="submit"] {
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    background: #12334D;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
