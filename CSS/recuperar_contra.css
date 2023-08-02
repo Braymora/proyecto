@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+
+.left-form {
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    background: #12334D url(../img/imagen.png) no-repeat center;
+    background-size: 50% auto;
+}
+
+.right-box {
+    width: 30%;
+    height: 100%;
+    margin: 0;
+    float: left;
+    background: #D6DCE1;
+    display: flex;
+    justify-content: center;
+}
+
+.right-box form {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-box .logo_recuperar {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.right-box h2 {
+    color: #757A7E;
+    margin: 0;
+    padding: 0 0 20px;
+    height: auto;
+    text-align: center;
+}
+
+.right-box p {
+    color: #757A7E;
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.right-box b {
+    color: #172733;
+    
+}
+
+.right-box label {
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+    color: #757A7E;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+}
+
+.right-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.right-box input[type="password"] {
+    color: #000;
+    border: 1px solid #757A7E;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.right-box input[type="submit"] {
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    background: #12334D;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.right-box a {
+    text-decoration: none;
+    line-height: 20px;
+    color: #12334D;
+}
+
+.right-box a:hover {
+    color: #757A7E;
+}
+
+
+
