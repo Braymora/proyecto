@@ -1,8 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(../img/Fondo.jpg) no-repeat center top;
-    background-color: rgba(0, 0, 0, 0.8);
+    background: #12334D;
     background-size: cover;
     font-family: sans-serif;
     height: 100vh;
